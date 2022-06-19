@@ -1,10 +1,11 @@
 from tkinter import *#importing tkinter library of python
 import random #importing random function so as to use it later on in randint
 
+#raising frames here
 def raise_frame(frame):
 	frame.tkraise()
 
-root = Tk()#to create separate window(it is like a container)
+root = Tk() #assigning root as the main 
 root.title("Guess the number !!")
 root.geometry('550x400')
 root.configure(background="LightCyan2")
